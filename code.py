@@ -410,7 +410,7 @@ auto_convert_embeddings()
 
 #Set the OpenRouter API key as an environment variable.
 #This allows the client to authenticate requests securely without hardcoding the key in the code.
-os.environ["OPENROUTER_API_KEY"] = "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"
+os.environ["OPENROUTER_API_KEY"] = 
 
 #Initialize the OpenAI client with the OpenRouter base URL and the API key retrieved from environment variables.
 #This client will be used to send requests to the model for generating responses.
